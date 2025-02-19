@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calcul IMC</title>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <h1>Formulaire de calcul de l'IMC</h1>
+
+        <!-- <form action="#" method="post"> -->
+        <form>
+          <!-- <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required /><br /><br /> -->
+
+          <!-- <label for="sexe">Sexe :</label>
+          <select id="sexe" name="sexe" required>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option></select
+          ><br /><br /> -->
+
+          <label for="poids">Poids (en kg) :</label>
+          <input
+            type="number"
+            id="poids"
+            name="poids"
+            step="0.01"
+            required
+          /><br /><br />
+
+          <label for="taille">Taille (en mètres) :</label>
+          <input
+            type="number"
+            id="taille"
+            name="taille"
+            step="0.01"
+            required
+          /><br /><br />
+
+          <button id="btnCalc" type="button">Calculer l'IMC</button>
+          <!-- <button type="button" onclick="calculerIMC()">Calculer l'IMC</button> -->
+        </form>
+
+        <!-- Résultat du calcul de l'IMC -->
+        <h2 id="imcResult"></h2>
+        <h3 id="imcCategory"></h3>
+        <p id="imcInterpretation"></p>
+        <p id="imcExplanation"></p>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
