@@ -116,6 +116,8 @@ function calculateIMC() {
   document.getElementById("imcCategory").classList.add("visible");
   document.getElementById("imcInterpretation").classList.add("visible");
   document.getElementById("imcExplanation").classList.add("visible");
+  console.log("coucou");
+  
 }
 
 // Puis je créé mon évènement de déclenchement de la fonction sur le bouton de mon form
